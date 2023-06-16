@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateContact">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/cairo_extralight"
+        android:gravity="center_vertical"
+        android:text="Add New Contact"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="123dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:src="@drawable/addimage" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Pnumber"
+        android:layout_width="376dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="254dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btnAdd"
+            style="@style/ThemeOverlay.Material3.Button.TonalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Insert"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
